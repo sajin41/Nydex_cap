@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nydex Capital | Institutional Trading Education</title>
+    <meta name="description" content="Professional trading education built on structure, discipline, and institutional concepts. No signals, just pure market mastery.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <canvas id="chart-canvas"></canvas>
+    <div class="bg-overlay"></div>
+    <div class="vignette"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <img src="logo1.png" alt="Nydex Capital" class="nav-logo">
+            </a>
+
+            <div class="nav-links">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#curriculum" class="nav-item">Curriculum</a>
+                <a href="#mentorship" class="nav-item">Mentorship</a>
+                <a href="#faq" class="nav-item">FAQ</a>
+                <a href="#mentorship" class="cta-button small glow-effect">Apply Now</a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge reveal-fade">
+                <span class="pulse"></span>
+                <span class="badge-text">ACCEPTING Q1 2026 APPLICATIONS</span>
+            </div>
+
+            <h1 class="hero-title">
+                <div class="reveal-text">Professional Trading</div>
+                <div class="reveal-text"><span class="text-gradient">Built on Structure</span></div>
+            </h1>
+
+            <p class="hero-subtitle reveal-fade delay-1">
+                Master institutional market concepts, risk discipline, and market structure. We don't sell signals—we build consistent, funded traders.
+            </p>
+
+            <div class="hero-actions reveal-fade delay-2">
+                <a href="#mentorship" class="cta-button primary glow-effect">View Mentorship Details</a>
+                <a href="#about" class="cta-button secondary">How We Teach</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats / Trust Banner -->
+    <section class="trust-banner reveal-fade">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <span class="trust-num counter" data-target="100">0</span>
+                <span class="trust-plus">+</span>
+                <span class="trust-label">Active Students</span>
+            </div>
+            <div class="trust-separator"></div>
+            <div class="trust-item">
+                <span class="trust-num">100%</span>
+                <span class="trust-label">Institutional Concepts</span>
+            </div>
+            <div class="trust-separator"></div>
+            <div class="trust-item">
+                <span class="trust-num">0%</span>
+                <span class="trust-label">Hype / Signals</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container split-layout">
+            <div class="about-text">
+                <h4 class="section-tag reveal-fade">OUR PHILOSOPHY</h4>
+                <h2 class="section-title reveal-fade">Not A Signal Group. <br> An Education Institute.</h2>
+                <div class="line-accent reveal-width"></div>
+                <div class="text-block reveal-fade">
+                    <p>
+                        Nydex Capital was founded to bridge the gap between retail speculation and institutional reality. Most traders fail because they lack structure. We provide that structure.
+                    </p>
+                    <p>
+                        Our approach is grounded in <strong>Market Structure, liquidity, and supply & demand</strong>. We focus purely on the "Why" behind market moves, ensuring you understand price delivery rather than chasing indicators.
+                    </p>
+                </div>
+            </div>
+            <div class="about-visual reveal-fade delay-1">
+                <div class="glass-card chart-container">
+                    <!-- CSS Geometric Abstract Art -->
+                    <div class="abstract-chart">
+                        <div class="grid-line horizontal"></div>
+                        <div class="grid-line vertical"></div>
+                        <div class="chart-path"></div>
+                        <div class="floating-point p1"></div>
+                        <div class="floating-point p2"></div>
+                        <div class="floating-point p3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum / What We Teach -->
+    <section id="curriculum" class="section curriculum-section">
+        <div class="container">
+            <div class="section-header center">
+                <h4 class="section-tag reveal-fade">CURRICULUM</h4>
+                <h2 class="section-title reveal-fade">Core Concepts</h2>
+                <p class="section-desc reveal-fade">The pillars of our institutional trading methodology.</p>
+            </div>
+
+            <div class="grid-cards">
+                <!-- Card 1 -->
+                <div class="card spotlight-card reveal-up">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <path d="M3 3V21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                <path d="M7 14L11 10L15 14L21 8" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Market Structure</h3>
+                        <p>Understanding swings, breaks of structure, and trend continuation.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card spotlight-card reveal-up delay-1">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                    stroke="currentColor" stroke-width="2" />
+                                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Liquidity Concepts</h3>
+                        <p>Where money rests. Inducement, sweeps, and institutional traps.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card spotlight-card reveal-up delay-2">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <path d="M2 12H22" stroke="currentColor" stroke-width="2" />
+                                <path d="M12 2V22" stroke="currentColor" stroke-width="2" />
+                                <path d="M4.92999 4.93L19.07 19.07" stroke="currentColor" stroke-width="2" />
+                                <path d="M19.07 4.93L4.92999 19.07" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Institutional Behavior</h3>
+                        <p>Order blocks and imbalances. How banks deliver price efficiently.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card spotlight-card reveal-up delay-3">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <path d="M12 22L2 12L12 2L22 12L12 22Z" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Risk Management</h3>
+                        <p>The math of profitability. Position sizing and capital preservation.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card spotlight-card reveal-up delay-4">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <path d="M12 3C7.03 3 3 7.03 3 12C3 16.97 7.03 21 12 21C16.97 21 21 16.97 21 12"
+                                    stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Trading Psychology</h3>
+                        <p>Building the mind of a professional. Patience, execution, and review.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card spotlight-card reveal-up delay-5">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="icon-svg">
+                                <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor"
+                                    stroke-width="2" />
+                                <path d="M16 2V6" stroke="currentColor" stroke-width="2" />
+                                <path d="M8 2V6" stroke="currentColor" stroke-width="2" />
+                                <path d="M3 10H21" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Session Analysis</h3>
+                        <p>Timing is everything. Asian range, London Open, and NY Expand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Program -->
+    <section id="mentorship" class="section mentorship-section">
+        <div class="container">
+            <div class="mentorship-card glass-panel reveal-up">
+                <div class="absolute-glow"></div>
+                <div class="mentorship-content">
+                    <h4 class="section-tag highlight">ACCELERATOR</h4>
+                    <h2 class="program-title">100 Days Trader Mentorship</h2>
+                    <p class="program-desc">
+                        A rigorous, structured program designed to take you from understanding concepts to executing them live.
+                    </p>
+
+                    <div class="program-timeline">
+                        <div class="timeline-item">
+                            <div class="time-dot"></div>
+                            <div class="time-content">
+                                <h5>Weeks 1-4</h5>
+                                <p>Theory & Core Concepts</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-dot"></div>
+                            <div class="time-content">
+                                <h5>Weeks 5-8</h5>
+                                <p>Live Market Application</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-dot"></div>
+                            <div class="time-content">
+                                <h5>Weeks 9-12</h5>
+                                <p>Psychology & Funding Prep</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <button class="cta-button primary full-width glow-effect">Apply for Mentorship</button>
+                        <p class="small-note">Limited spots per quarter to ensure quality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Nydex -->
+    <section class="section why-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title reveal-fade">Why Nydex?</h2>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason reveal-up">
+                    <h4>Institutional Approach</h4>
+                    <p>We teach raw price action, not lagging indicators.</p>
+                </div>
+                <div class="reason reveal-up delay-1">
+                    <h4>Discipline First</h4>
+                    <p>We prioritize preserving capital over chasing multipliers.</p>
+                </div>
+                <div class="reason reveal-up delay-2">
+                    <h4>Transparent</h4>
+                    <p>No lambos, no fake PnL. Just real charts and education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <h2 class="section-title center reveal-fade">Frequently Asked Questions</h2>
+            <div class="faq-accordion reveal-up">
+                <!-- FAQ Items -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is this beginner friendly?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="answer-content">
+                            <p>Yes. We start from the absolute basics of market structure. However, be prepared to study. This is not a "get rich quick" scheme; it's a profession.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide trading signals?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="answer-content">
+                            <p>No. We are strictly an educational platform. Our goal is to make you self-sufficient, not dependent on us for entries.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is profit guaranteed?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="answer-content">
+                            <p>Absolutely not. Trading involves significant risk. No educator can honestly guarantee profits. Your success depends on your discipline and work ethic.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What markets are covered?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="answer-content">
+                            <p>Our concepts apply to all liquid markets. We primarily focus on Forex majors, Gold (XAUUSD), and Indices (US30/NAS100) as examples.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="logo.jpg" alt="Nydex Capital" class="footer-logo">
+                <p>Building disciplined traders through structure and logic.</p>
+                <div class="social-links">
+                    <a href="#">TW</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Platform</h4>
+                <a href="#about">About</a>
+                <a href="#curriculum">Curriculum</a>
+                <a href="#mentorship">Mentorship</a>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Risk Disclosure</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div class="risk-disclaimer">
+                <p><strong>RISK DISCLOSURE:</strong> This program is strictly for educational purposes only. We do not provide financial advice, trading signals, or guarantee profits. Trading foreign exchange, indices, and commodities on margin carries a
+                    high level of risk and may not be suitable for all investors. You could lose some or all of your initial investment.</p>
+            </div>
+            <p class="copyright">&copy; 2026 Nydex Capital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
